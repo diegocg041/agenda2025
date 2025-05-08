@@ -1,0 +1,27 @@
+
+
+:root{
+    --cor-de-fundo: #e509b5;
+    --vermelho: #db1515;
+    --roxo: #931b79;
+    --botao-ativo: #3a375e;
+    --botao-inativa: rgba(13, 255, 13, 0.5);
+    --texto-fundo:rgba(246, 61, 10, 0.3);
+} 
+
+body{
+
+
+    background-color: var(--cor-de-fundocor);
+    color: var(--vermelho);
+    font-family:'Chakra Petch', sans-serif;
+}
+.conteudo.principal{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   
+}
