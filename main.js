@@ -49,3 +49,8 @@ for (let i=0; i < botoes.length; i++){
        
     }
    }
+   function comecaCrometro(){
+    atulizaCrometro();
+    setInterval(atulizaCrometro, 1000);
+   }
+   comecaCrometro();
